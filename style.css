@@ -333,7 +333,7 @@ p,
 
 /* =====|**** ATÉ 710px ****|===== */
 
-  @media (max-height: 710px) and (orientation: portrait) {
+  @media (max-height: 500px) and (orientation: portrait) {
 
     /* =====| NAVBAR |===== */
 
@@ -416,4 +416,5 @@ p,
         font-style: italic;
       }
 }
+
 
