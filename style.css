@@ -134,6 +134,7 @@ p,
 }
 
 /* Navbar */
+
 #navbar {
   position: fixed;
   top: 14px;
@@ -244,9 +245,9 @@ p,
    ====================================|**** MOBILE ****|======================================
    ____________________________________|****************|______________________________________ */
 
-/* =====|**** A PARTIR DE 710px ****|===== */
+/* =====|**** ATÉ 950px ****|===== */
 
-  @media (min-height: 710px) {
+  @media (max-height: 950px) and (orientation: portrait) {
 
     /* =====| NAVBAR |===== */
 
@@ -279,7 +280,7 @@ p,
     /* =====| SESSÃO 1 |===== */
 
       #hero {
-        min-height: 85svh;
+        min-height: 55svh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -330,9 +331,9 @@ p,
       }
 }
 
-/* =====|**** A PARTIR DE 0px ****|===== */
+/* =====|**** ATÉ 710px ****|===== */
 
-  @media (min-height: 0px) {
+  @media (max-height: 710px) and (orientation: portrait) {
 
     /* =====| NAVBAR |===== */
 
@@ -389,7 +390,7 @@ p,
 
       .hero-title {
         font-size: 1.55rem;
-        color: white;
+        color: blue;
         font-weight: 700;
         line-height: 1.25;
       }
