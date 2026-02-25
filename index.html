@@ -2,112 +2,671 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-    content="A NF BRASIL é uma empresa especializada em treinamentos e consultoria técnica em Segurançado Trabalho e Gestão de Emergências, atuando com foco na prevenção, conformidade legal e excelênciaoperacional." />
-    <title>NF BRASIL</title>
 
-  <!-- Fontes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="A NF BRASIL é especialista em Segurança do Trabalho, Gestão de Emergências e Regularização junto ao Corpo de Bombeiros. Treinamentos práticos, soluções técnicas e suporte completo para manter sua empresa segura, regularizada e protegida." />
+  <title>NF BRASIL – Treinamentos e Consultoria em Emergências</title>
+
+  <!-- =====| FONTES |===== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav id="navbar" role="navigation" aria-label="Menu principal"> 
+
+  <!-- =====| NAVBAR |===== -->
+
+  <nav id="navbar" role="navigation" aria-label="Menu principal">
+
     <div class="nav-left">
-      <img src="assets/logo.png" class="nav-logo" id="nav-logo" />
+      <img src="assets/Logo.png" alt="NF Brasil" class="nav-logo" id="nav-logo" />
     </div>
+
     <div class="nav-right">
-      <a href="https://api.whatsapp.com/send?phone=5522998111133&text=Quero%20SIMULAR%20minha%20Holding!"
+      <a href="https://api.whatsapp.com/send?phone=5516999999999&text=Olá!%20Quero%20falar%20com%20um%20especialista%20da%20NF%20Brasil."
         target="_blank" rel="noopener noreferrer" class="nav-whatsapp" id="btn-nav-whatsapp">
 
-        <!-- Ícone do WhatsApp -->
+        <!-- =====| ÍCONE DO WHATSAPP |===== -->
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"
           aria-hidden="true">
-          <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-        </svg> 
-          Fale com um profissional no WhatsApp
+          <path
+            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+        </svg>
+        Fale com um profissional no WhatsApp
       </a>
     </div>
   </nav>
 
-  <!-- Sessão 1 | HERO -->
+  <!-- =====| SESSÃO 1 – HERO |===== -->
+
   <section id="hero" aria-labelledby="hero-title">
-    <canvas id="neural-canvas" aria-hidden="true"></canvas>
 
-    <div class="hero-content">
-      <h1 class="hero-title" id="hero-title">
-       Sua empresa está 
-       <br><span class="accent">REALMENTE PREPARADA</span> 
-       <br>para uma emergência?
-      </h1>
+    <div class="hero-bg-particles" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span>
+    </div>
 
-      <div class="hero-phrase">
-        <div class="phrase-inner">
-          Transformamos <span class="accent">RISCOS</span> em <span class="accent">CONTROLE</span>
-          <br>e emergência em
-          <br><span class="accent">RESPOSTA SEGURA.</span>
+    <!-- Desktop layout: two columns -->
+    <div class="hero-inner container">
+
+      <div class="hero-content">
+
+        <h1 class="hero-title" id="hero-title">
+          SUA EMPRESA<br>ESTÁ REALMENTE<br>
+          <span class="hero-title-accent">PREPARADA PARA UMA EMERGÊNCIA?</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Transformamos <strong>risco em controle</strong> e <br>emergência em resposta segura.
+        </p>
+
+        <p class="hero-desc">
+          A <strong>NF Brasil Treinamentos</strong> &amp; <strong>Consultoria em Emergências</strong> é <br>especialista
+          em
+          <span class="accent-light">Segurança do Trabalho,</span> <span class="accent-light">Gestão de
+            Emergências</span>
+          e
+          <br><span class="accent-light">Regularização</span>
+          junto ao <span class="accent-light">Corpo de
+            Bombeiros.</span><br><br>
+          <span class="accent-light">Treinamentos práticos,</span> <span class="accent-light">soluções técnicas</span> e
+          <span class="accent-light">suporte completo</span> para manter sua empresa <span
+            class="accent-light">segura,</span> <span class="accent-light">regularizada</span> e
+          <span class="accent-light">protegida</span>.
+        </p>
+
+        <a href="https://api.whatsapp.com/send?phone=5516999999999&text=Olá!%20Quero%20falar%20com%20um%20especialista%20da%20NF%20Brasil%20e%20solicitar%20uma%20avaliação%20técnica."
+          target="_blank" rel="noopener noreferrer" class="btn-hero" id="btn-hero-cta">
+
+          <!-- =====| ÍCONE DE BOMBEIRO |===== -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" xml:space="preserve" width="24" height="24"
+            fill="white">
+            <path
+              d="m7.944 20.412-.094-.76a7.4 7.4 0 0 1-1.067.026 7 7 0 0 1-1.725-.291l.125 1.004-2.356 5.718a1.369 1.369 0 1 0 2.531 1.043l2.493-6.05a1.4 1.4 0 0 0 .093-.69m3.766-.626-.217-1.663a6.5 6.5 0 0 1-2.586 1.343l.058.442-1.364 6.439a1.369 1.369 0 1 0 2.679.567l1.412-6.668q.048-.228.018-.461m7.252-8.22a.69.69 0 0 0-.856-.478l-2.851.807c.253.388.374.863.313 1.353l.682-.193-.195.719a.693.693 0 1 0 1.339.363l.412-1.523.677-.192a.69.69 0 0 0 .478-.856m-8.65-9.081a2.484 2.484 0 0 1-2.484 2.484 2.484 2.484 0 0 1-2.485-2.484 2.484 2.484 0 0 1 4.969 0m3.443 9.33-4.093-.656-1.35-2.961 1.789 2.2.888.142v-3.15c0-.927-.751-1.678-1.678-1.678H6.318a1.67 1.67 0 0 0-1.057.375 1.324 1.324 0 0 0-1.27-.952h-2.36C.9 5.134.308 5.727.308 6.457v6.223c0 .491.268.919.665 1.148.334.192.621.176.786.176.124.942.473 2.281 1.426 3.333.889.982 2.112 1.515 3.634 1.584 2.265.103 4.089-.894 5.37-2.662.327-.452.583-.906.78-1.312l-1.443-.231a7 7 0 0 1-.486.763c-1.058 1.442-2.457 2.134-4.159 2.056-1.135-.052-2.031-.43-2.663-1.124-.661-.726-.939-1.68-1.056-2.408h.829c.236 0 .457-.062.649-.17l-.041 1.847c.51.696 1.262 1.05 2.316 1.098 1.517.069 2.655-.562 3.535-1.777a6 6 0 0 0 .274-.413l-2.207-.354c-.969-.155-1.499-.946-1.577-1.337l-.685-3.431 1.49 3.27a1.2 1.2 0 0 0 .901.686l4.728.757a1.198 1.198 0 1 0 .38-2.366m13.833-9.024a.696.696 0 0 0-.855-.488.696.696 0 0 0-.487.86c.277 1.016.209 2.463-.094 3.354-.407 1.321-1.247 2.373-2.412 3.152-1.146.74-2.055 1.047-3.355 1.397l-.01.003a.182.182 0 0 0 .08.354c1.232-.219 2.213-.409 3.643-1.166 1.42-.782 2.466-1.934 3.057-3.38.263-.606.416-1.333.494-1.99.099-.922.013-1.824-.062-2.097m-6.459 3.821a.706.706 0 0 0-.447.899l.002-.006c.056.093.173.626-.046 1.138-.191.478-.574.793-.925 1.032l-.01.007a.176.176 0 0 0 .146.315c.586-.16 1.099-.403 1.51-.866.438-.477.702-1.194.699-1.774-.01-.633-.519-.879-.929-.744m4.408 7.91c-.019-.061-.059-.267-.266-.617a2.75 2.75 0 0 0-.93-.946c-.566-.349-1.137-.409-1.696-.396a.18.18 0 0 0-.164.123.176.176 0 0 0 .115.221c.218.069.806.238 1.194.726.346.413.403.954.372 1.076l-.003-.005a.706.706 0 1 0 1.378-.183" />
+          </svg>
+          Quero falar com um especialista
+        </a>
+
+        <!-- Imagem mobile: aparece abaixo do botão em telas pequenas -->
+        <div class="hero-img-mobile">
+          <img src="assets/image-1.jpg" alt="NF Brasil em ação" class="section-puddle-img" />
         </div>
+
+        <div class="hero-arrow" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+
       </div>
 
-      <a href="https://api.whatsapp.com/send?phone=5522998111133&text=I%20want%20TO%20SIMULATE%20my%20Holding!"
-        target="_blank" rel="noopener noreferrer" class="btn-hero" id="btn-hero-cta">
-        Acessar minha Sessão de Viabilidade
-      </a>
+      <!-- Image col (desktop: right / mobile: below) -->
+      <div class="hero-img-col">
+        <img src="assets/image-1.jpg" alt="NF Brasil em ação" class="section-puddle-img" />
+      </div>
+
     </div>
 
   </section>
 
- <!-- Sessão 2 -->
-  <section id="sobre-holding" aria-labelledby="sobre-title">
+  <!-- =====| SESSÃO 2 – PROBLEMA/DOR |===== -->
+
+  <section id="problema" class="section-dark" aria-labelledby="problema-title">
     <div class="container">
-      <div class="two-col two-col--text-left">
 
-        <div class="col-text">
-          <h2 class="section-headline" id="sobre-title">
-            Por anos, a Holding Familiar foi ignorada. Porém, isso mudou quando as vantagens
-            deste mecanismo vieram à tona para
-            <span class="accent">milhares de famílias brasileiras.</span>
-          </h2>
+      <!-- Desktop: image LEFT, content RIGHT -->
+      <div class="split-section split-img-left">
 
-          <p>
-            Primeiro, muitas passaram pela <strong>'Sessão de Viabilidade'</strong>.
-          </p>
-
-          <p>
-            O objetivo desta
-            primeira etapa é te ouvir, analisar com cuidado as particularidades da sua família, do seu
-            patrimônio e desejo de organização, proteção e sucessão através da Holding.
-          </p>
-
-          <p>
-            Assim,
-            conseguiremos propor uma solução que se adeque à realidade do seu patrimônio e da sua
-            família. O diagnóstico da sessão corresponderá à sua realidade.
-          </p>
-
+        <div class="split-img-col">
+          <img src="assets/image-2.jpg" alt="Riscos de não conformidade" class="section-puddle-img" />
         </div>
 
-        <div class="col-image">
-          <div class="image-wrapper">
-            <img src="assets/images/image-1.png" alt="Família protegida pela Holding Familiar" class="section-img"
-              loading="lazy" />
+        <div class="split-content-col">
+
+          <div class="section-header reveal section-header-left">
+            <h2 class="section-title" id="problema-title">
+              Evite multas, interdições e riscos desnecessários
+            </h2>
+            <p class="section-subtitle">
+              Empresas que não atendem às normas regulamentadoras podem<br><span class="accent-light">sofrer
+                consequências
+                graves:</span>
+            </p>
           </div>
-        </div>
 
+          <div class="problema-grid reveal">
+
+            <div class="problema-card">
+              <span class="problema-icon">❌</span>
+              <p>Multas e penalidades</p>
+            </div>
+            <div class="problema-card">
+              <span class="problema-icon">❌</span>
+              <p>Interdição das atividades</p>
+            </div>
+            <div class="problema-card">
+              <span class="problema-icon">❌</span>
+              <p>Problemas jurídicos</p>
+            </div>
+            <div class="problema-card">
+              <span class="problema-icon">❌</span>
+              <p>Perda do AVCB</p>
+            </div>
+            <div class="problema-card problema-card-wide">
+              <span class="problema-icon">❌</span>
+              <p>Riscos graves à vida dos colaboradores</p>
+            </div>
+
+          </div>
+
+          <div class="problema-cta reveal">
+            <p class="problema-cta-text">
+              Nós ajudamos sua empresa a atuar com <strong>conformidade legal total</strong> e
+              <strong>segurança operacional real</strong>.
+            </p>
+          </div>
+
+        </div>
       </div>
+
+      <!-- Mobile image (shown only on mobile, below content) -->
+      <div class="split-img-mobile reveal">
+        <img src="assets/image-2.jpg" alt="Riscos de não conformidade" class="section-puddle-img" />
+      </div>
+
     </div>
   </section>
 
-  <div class="section-divider"></div>
+  <!-- =====| SESSÃO 3 – TREINAMENTOS |===== -->
+
+  <section id="treinamentos" class="section-light" aria-labelledby="treinamentos-title">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <div class="section-tag">NOSSAS SOLUÇÕES ✔</div>
+        <h2 class="section-title" id="treinamentos-title">
+          Treinamentos e Capacitações
+        </h2>
+        <p class="section-subtitle">
+          Ministrados por:<br><strong>bombeiros, técnicos e engenheiros</strong><br>com ampla <span
+            class="accent-light">vivência
+            operacional.</span>
+        </p>
+      </div>
+
+      <div class="treinamentos-grid reveal">
+
+        <div class="treinamento-card">
+          <div class="treinamento-icon">🔥</div>
+          <h3>Brigada de Incêndio</h3>
+          <p>Formação e Reciclagem de Brigada de Incêndio</p>
+        </div>
+
+        <div class="treinamento-card">
+          <div class="treinamento-icon">⛏️</div>
+          <h3>NR 33</h3>
+          <p>Espaços Confinados</p>
+        </div>
+
+        <div class="treinamento-card">
+          <div class="treinamento-icon">🧗</div>
+          <h3>NR 35</h3>
+          <p>Trabalho em Altura</p>
+        </div>
+
+        <div class="treinamento-card">
+          <div class="treinamento-icon">🛢️</div>
+          <h3>NR 20</h3>
+          <p>Combustíveis e Inflamáveis</p>
+        </div>
+
+        <div class="treinamento-card">
+          <div class="treinamento-icon">🦺</div>
+          <h3>CIPA (NR 5)</h3>
+          <p>Comissão Interna de Prevenção de Acidentes</p>
+        </div>
+
+        <div class="treinamento-card">
+          <div class="treinamento-icon">🪢</div>
+          <h3>Resgate em Altura</h3>
+          <p>Técnicas avançadas de resgate vertical</p>
+        </div>
+
+        <div class="treinamento-card">
+          <div class="treinamento-icon">🕳️</div>
+          <h3>Resgate em Espaços Confinados</h3>
+          <p>Procedimentos seguros de resgate subterrâneo</p>
+        </div>
+
+        <div class="treinamento-card">
+          <div class="treinamento-icon">🌲</div>
+          <h3>Brigada Florestal</h3>
+          <p>Prevenção e combate a incêndios florestais</p>
+        </div>
+
+        <div class="treinamento-card">
+          <div class="treinamento-icon">🚑</div>
+          <h3>Atendimento Pré-Hospitalar</h3>
+          <p>Primeiros socorros e APH operacional</p>
+        </div>
+
+      </div>
+
+      <div class="section-cta reveal">
+        <a href="https://api.whatsapp.com/send?phone=5516999999999&text=Olá!%20Quero%20solicitar%20uma%20proposta%20de%20treinamento."
+          target="_blank" rel="noopener noreferrer" class="btn-cta" id="btn-treinamentos-cta">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"
+            aria-hidden="true">
+            <path
+              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+          </svg>
+          Solicite uma proposta
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =====| SESSÃO 4 – PROJETOS E REGULARIZAÇÕES |===== -->
+
+  <section id="projetos" class="section-dark" aria-labelledby="projetos-title">
+    <div class="container">
+
+      <!-- Desktop: content LEFT, image RIGHT -->
+      <div class="split-section split-img-right">
+
+        <div class="split-content-col">
+
+          <div class="section-header reveal section-header-left">
+            <h2 class="section-title" id="projetos-title">
+              Projetos, Regularizações e Documentações
+            </h2>
+            <p class="section-subtitle">
+              Acompanhamos sua empresa <br><span class="accent-light">até a aprovação final.</span>
+            </p>
+          </div>
+
+          <div class="projetos-list reveal">
+
+            <div class="projeto-item">
+              <span class="projeto-check">✔</span>
+              <div>
+                <h3>PAE</h3>
+                <p>Elaboração de Plano de Atendimento a Emergências</p>
+              </div>
+            </div>
+
+            <div class="projeto-item">
+              <span class="projeto-check">✔</span>
+              <div>
+                <h3>AVCB</h3>
+                <p>Obtenção e Renovação de Auto de Vistoria do Corpo de Bombeiros</p>
+              </div>
+            </div>
+
+            <div class="projeto-item">
+              <span class="projeto-check">✔</span>
+              <div>
+                <h3>Regularização</h3>
+                <p>Regularização completa junto ao Corpo de Bombeiros</p>
+              </div>
+            </div>
+
+            <div class="projeto-item">
+              <span class="projeto-check">✔</span>
+              <div>
+                <h3>Projetos de Incêndio</h3>
+                <p>Projetos de Segurança Contra Incêndio</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="split-img-col">
+          <img src="assets/image-3.jpg" alt="Projetos e Regularizações" class="section-puddle-img" />
+        </div>
+
+      </div>
+
+      <!-- Mobile image -->
+      <div class="split-img-mobile reveal">
+        <img src="assets/image-3.jpg" alt="Projetos e Regularizações" class="section-puddle-img" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =====| SESSÃO 5 – INSPEÇÕES |===== -->
+
+  <section id="inspecoes" class="section-alt" aria-labelledby="inspecoes-title">
+    <div class="container">
+
+      <!-- Desktop: image LEFT, content RIGHT -->
+      <div class="split-section split-img-left">
+
+        <div class="split-img-col">
+          <img src="assets/image-4.jpg" alt="Inspeções Técnicas" class="section-puddle-img" />
+        </div>
+
+        <div class="split-content-col">
+
+          <div class="section-header reveal section-header-left">
+            <h2 class="section-title" id="inspecoes-title">
+              Inspeções e Serviços Técnicos Especializados
+            </h2>
+            <p class="section-subtitle">
+              Atuação preventiva com <br><strong>análise técnica</strong>, <strong>mitigação de riscos</strong> <br>e
+              <strong>pronta
+                resposta</strong>.
+            </p>
+          </div>
+
+          <div class="inspecoes-grid reveal">
+
+            <div class="inspecao-card">
+              <div class="inspecao-icon-wrap">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M7 16.5v-9a5 5 0 0 1 10 0v9" />
+                  <circle cx="12" cy="19" r="2" />
+                  <path d="M5 16.5h14" />
+                </svg>
+              </div>
+              <h3>Hidrantes</h3>
+              <p>Inspeção e manutenção de sistemas de hidrantes</p>
+            </div>
+
+            <div class="inspecao-card">
+              <div class="inspecao-icon-wrap">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 8v4l3 3" />
+                </svg>
+              </div>
+              <h3>Sprinklers</h3>
+              <p>Sistemas automáticos de combate a incêndio</p>
+            </div>
+
+            <div class="inspecao-card">
+              <div class="inspecao-icon-wrap">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 8h1a4 4 0 0 1 0 8h-1" />
+                  <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" />
+                  <line x1="6" y1="1" x2="6" y2="4" />
+                  <line x1="10" y1="1" x2="10" y2="4" />
+                  <line x1="14" y1="1" x2="14" y2="4" />
+                </svg>
+              </div>
+              <h3>Alarmes de Incêndio</h3>
+              <p>Instalação e verificação de sistemas de alarme</p>
+            </div>
+
+            <div class="inspecao-card">
+              <div class="inspecao-icon-wrap">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                  <path d="M2 17l10 5 10-5" />
+                  <path d="M2 12l10 5 10-5" />
+                </svg>
+              </div>
+              <h3>Linhas de Vida</h3>
+              <p>Instalação e inspeção de linhas de vida fixa e temporária</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Mobile image -->
+      <div class="split-img-mobile reveal">
+        <img src="assets/image-4.jpg" alt="Inspeções Técnicas" class="section-puddle-img" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =====| SESSÃO 6 – PARA QUEM É |===== -->
+
+  <section id="para-quem" class="section-dark" aria-labelledby="paraquem-title">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <div class="section-tag">PARA QUEM É INDICADO?</div>
+        <h2 class="section-title" id="paraquem-title">
+          Se sua empresa precisa atender exigências legais e garantir segurança real, nós podemos ajudar.
+        </h2>
+      </div>
+
+      <div class="paraquem-grid reveal">
+
+        <div class="paraquem-item">
+          <span class="paraquem-icon">🏭</span>
+          <p>Indústrias</p>
+        </div>
+        <div class="paraquem-item">
+          <span class="paraquem-icon">🏗️</span>
+          <p>Construtoras</p>
+        </div>
+        <div class="paraquem-item">
+          <span class="paraquem-icon">⚡</span>
+          <p>Usinas</p>
+        </div>
+        <div class="paraquem-item">
+          <span class="paraquem-icon">🌲</span>
+          <p>Empresas florestais</p>
+        </div>
+        <div class="paraquem-item">
+          <span class="paraquem-icon">🧗</span>
+          <p>Atividades em altura</p>
+        </div>
+        <div class="paraquem-item">
+          <span class="paraquem-icon">⛏️</span>
+          <p>Espaços confinados</p>
+        </div>
+
+      </div>
+
+      <div class="section-cta reveal">
+        <a href="https://api.whatsapp.com/send?phone=5516999999999&text=Olá!%20Quero%20falar%20com%20a%20equipe%20da%20NF%20Brasil."
+          target="_blank" rel="noopener noreferrer" class="btn-cta" id="btn-paraquem-cta">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"
+            aria-hidden="true">
+            <path
+              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+          </svg>
+          Fale com nossa equipe!
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =====| SESSÃO 7 – ATENDIMENTO / DIFERENCIAIS |===== -->
+
+  <section id="atendimento" class="section-alt" aria-labelledby="atendimento-title">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <div class="section-tag">ONDE ESTÁ A NOSSA EQUIPE?</div>
+        <h2 class="section-title" id="atendimento-title">
+          Atendimento Especializado em <br>São Carlos e Região
+        </h2>
+      </div>
+
+      <!-- Mapa de rede neural / cidades -->
+      <div class="city-map-wrap reveal" aria-label="Mapa de atuação: São Carlos e região">
+        <svg id="city-map" viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+
+          <!-- Linhas de conexão (retas simples, sem animação) -->
+          <line class="city-line" x1="300" y1="190" x2="180" y2="100" />
+          <line class="city-line" x1="300" y1="190" x2="130" y2="230" />
+          <line class="city-line" x1="300" y1="190" x2="420" y2="290" />
+          <line class="city-line" x1="300" y1="190" x2="470" y2="140" />
+
+          <!-- Nó: Araraquara (topo esquerda) -->
+          <g class="city-node city-float-1" transform="translate(180,100)">
+            <circle class="city-ring" cx="0" cy="0" r="32" />
+            <circle class="city-dot city-dot-lg" cx="0" cy="0" r="20" />
+            <text class="city-label" x="0" y="-30">Araraquara</text>
+          </g>
+
+          <!-- Nó: Ibaté (esquerda) -->
+          <g class="city-node city-float-2" transform="translate(130,230)">
+            <circle class="city-ring" cx="0" cy="0" r="22" />
+            <circle class="city-dot city-dot-sm" cx="0" cy="0" r="12" />
+            <text class="city-label" x="0" y="-26">Ibaté</text>
+          </g>
+
+          <!-- Nó: Rio Claro (baixo direita) -->
+          <g class="city-node city-float-3" transform="translate(420,290)">
+            <circle class="city-ring" cx="0" cy="0" r="30" />
+            <circle class="city-dot city-dot-md" cx="0" cy="0" r="18" />
+            <text class="city-label" x="0" y="-32">Rio Claro</text>
+          </g>
+
+          <!-- Nó: Pirassununga (direita) -->
+          <g class="city-node city-float-4" transform="translate(470,140)">
+            <circle class="city-ring" cx="0" cy="0" r="24" />
+            <circle class="city-dot city-dot-sm2" cx="0" cy="0" r="14" />
+            <text class="city-label" x="0" y="-28">Pirassununga</text>
+          </g>
+
+          <!-- Nó central: São Carlos -->
+          <g class="city-node city-node-main city-float-main" transform="translate(300,190)">
+            <circle class="city-ring city-ring-main" cx="0" cy="0" r="60" />
+            <circle class="city-dot city-dot-main" cx="0" cy="0" r="45" />
+            <text class="city-label city-label-main" x="0" y="5">São Carlos</text>
+          </g>
+
+        </svg>
+      </div>
+
+      <div class="diferenciais-grid reveal">
+
+        <div class="diferencial-card">
+          <div class="diferencial-icon">🎯</div>
+          <h3>Equipe Qualificada</h3>
+          <p>Técnicos altamente especializados com experiência operacional real</p>
+        </div>
+
+        <div class="diferencial-card">
+          <div class="diferencial-icon">⚡</div>
+          <h3>Atendimento Ágil</h3>
+          <p>Resposta rápida e eficiente para atender às demandas da sua empresa</p>
+        </div>
+
+        <div class="diferencial-card">
+          <div class="diferencial-icon">🔧</div>
+          <h3>Soluções Personalizadas</h3>
+          <p>Cada empresa tem suas particularidades e nossa abordagem é sob medida</p>
+        </div>
+
+        <div class="diferencial-card">
+          <div class="diferencial-icon">📋</div>
+          <h3>Conformidade Legal</h3>
+          <p>Atuação 100% alinhada às normas vigentes e exigências do Corpo de Bombeiros</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =====| SESSÃO 8 – CTA FINAL |===== -->
+
+  <section id="cta-final" aria-labelledby="cta-final-title">
+
+    <div class="cta-final-bg" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </div>
+
+    <div class="container">
+      <div class="cta-final-content reveal">
+
+        <div class="cta-final-warning" aria-hidden="true">⚠</div>
+
+        <h2 class="cta-final-title" id="cta-final-title">
+          NÃO ESPERE UMA FISCALIZAÇÃO<br>OU UM ACIDENTE ACONTECER
+        </h2>
+
+        <p class="cta-final-text">
+          Segurança <span class="accent-light">não é custo.</span><br>
+          É <strong>proteção</strong>, <strong>responsabilidade</strong> e <br><strong>continuidade do seu
+            negócio</strong>.
+        </p>
+
+        <p class="cta-final-sub">
+          <span class="accent-light">Clique no botão abaixo</span> e fale agora com um especialista da <strong>NF
+            Brasil no WhatsApp.</strong>
+        </p>
+
+        <a href="https://api.whatsapp.com/send?phone=5516999999999&text=Olá!%20Quero%20falar%20com%20um%20especialista%20da%20NF%20Brasil%20e%20solicitar%20uma%20avaliação%20técnica."
+          target="_blank" rel="noopener noreferrer" class="btn-hero" id="btn-hero-cta">
+
+          <!-- =====| ÍCONE DE BOMBEIRO |===== -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" xml:space="preserve" width="24" height="24"
+            fill="white">
+            <path
+              d="m7.944 20.412-.094-.76a7.4 7.4 0 0 1-1.067.026 7 7 0 0 1-1.725-.291l.125 1.004-2.356 5.718a1.369 1.369 0 1 0 2.531 1.043l2.493-6.05a1.4 1.4 0 0 0 .093-.69m3.766-.626-.217-1.663a6.5 6.5 0 0 1-2.586 1.343l.058.442-1.364 6.439a1.369 1.369 0 1 0 2.679.567l1.412-6.668q.048-.228.018-.461m7.252-8.22a.69.69 0 0 0-.856-.478l-2.851.807c.253.388.374.863.313 1.353l.682-.193-.195.719a.693.693 0 1 0 1.339.363l.412-1.523.677-.192a.69.69 0 0 0 .478-.856m-8.65-9.081a2.484 2.484 0 0 1-2.484 2.484 2.484 2.484 0 0 1-2.485-2.484 2.484 2.484 0 0 1 4.969 0m3.443 9.33-4.093-.656-1.35-2.961 1.789 2.2.888.142v-3.15c0-.927-.751-1.678-1.678-1.678H6.318a1.67 1.67 0 0 0-1.057.375 1.324 1.324 0 0 0-1.27-.952h-2.36C.9 5.134.308 5.727.308 6.457v6.223c0 .491.268.919.665 1.148.334.192.621.176.786.176.124.942.473 2.281 1.426 3.333.889.982 2.112 1.515 3.634 1.584 2.265.103 4.089-.894 5.37-2.662.327-.452.583-.906.78-1.312l-1.443-.231a7 7 0 0 1-.486.763c-1.058 1.442-2.457 2.134-4.159 2.056-1.135-.052-2.031-.43-2.663-1.124-.661-.726-.939-1.68-1.056-2.408h.829c.236 0 .457-.062.649-.17l-.041 1.847c.51.696 1.262 1.05 2.316 1.098 1.517.069 2.655-.562 3.535-1.777a6 6 0 0 0 .274-.413l-2.207-.354c-.969-.155-1.499-.946-1.577-1.337l-.685-3.431 1.49 3.27a1.2 1.2 0 0 0 .901.686l4.728.757a1.198 1.198 0 1 0 .38-2.366m13.833-9.024a.696.696 0 0 0-.855-.488.696.696 0 0 0-.487.86c.277 1.016.209 2.463-.094 3.354-.407 1.321-1.247 2.373-2.412 3.152-1.146.74-2.055 1.047-3.355 1.397l-.01.003a.182.182 0 0 0 .08.354c1.232-.219 2.213-.409 3.643-1.166 1.42-.782 2.466-1.934 3.057-3.38.263-.606.416-1.333.494-1.99.099-.922.013-1.824-.062-2.097m-6.459 3.821a.706.706 0 0 0-.447.899l.002-.006c.056.093.173.626-.046 1.138-.191.478-.574.793-.925 1.032l-.01.007a.176.176 0 0 0 .146.315c.586-.16 1.099-.403 1.51-.866.438-.477.702-1.194.699-1.774-.01-.633-.519-.879-.929-.744m4.408 7.91c-.019-.061-.059-.267-.266-.617a2.75 2.75 0 0 0-.93-.946c-.566-.349-1.137-.409-1.696-.396a.18.18 0 0 0-.164.123.176.176 0 0 0 .115.221c.218.069.806.238 1.194.726.346.413.403.954.372 1.076l-.003-.005a.706.706 0 1 0 1.378-.183" />
+          </svg>
+          Quero falar com um especialista
+        </a>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- =====| FOOTER |===== -->
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <img src="assets/Logo-footer.png" alt="NF Brasil" class="footer-logo" />
+        <p class="footer-text">
+          NF BRASIL – TREINAMENTOS &amp; CONSULTORIA</p>
+        <p class="footer-copy">© 2026 NF Brasil. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =====| BOTÃO FLUTUANTE WHATSAPP |===== -->
+
+  <a href="https://api.whatsapp.com/send?phone=5516999999999&text=Olá!%20Quero%20falar%20com%20um%20especialista%20da%20NF%20Brasil."
+    target="_blank" rel="noopener noreferrer" class="whatsapp-float" id="btn-float-whatsapp"
+    aria-label="Fale conosco pelo WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" viewBox="0 0 16 16">
+      <path
+        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+    </svg>
+  </a>
+
+  <!-- =====| BOTÃO VOLTAR AO TOPO |===== -->
+
+  <a href="#hero" id="back-to-top" aria-label="Voltar ao topo">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
 
 </body>
 
 </html>
-
-
-
